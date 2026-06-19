@@ -214,8 +214,11 @@
     }
 
     /* SERVICES */
+    .christmas-section .scroll-hint { color: var(--clay); }
+    .christmas-section { background: var(--bark); padding-top: 1.4rem; }
+
     .services {
-      padding: 7rem 8vw;
+      padding: 7rem 8vw 1.4rem;
       background: #E2D5C5;
     }
 
@@ -397,16 +400,13 @@
 
     /* CONTACT */
     .contact {
-      background: var(--bark);
-      color: var(--offwhite);
+      background: #CFC0A8;
+      color: var(--dark);
       padding: 7rem 8vw;
-      max-width: 600px;
-      margin: 0 auto;
     }
 
-    .contact-left .section-label { opacity: 0.45; }
-
-    .contact-left .section-title {
+    .contact .section-label { color: var(--bark); opacity: 0.6; }
+    .contact .section-title { color: var(--bark); }
       font-family: 'Cormorant Garant', serif;
       font-size: clamp(2rem, 3.5vw, 3.2rem);
       font-weight: 300;
@@ -608,7 +608,7 @@
   <section class="services" id="services">
     <div class="services-header">
       <p class="section-label" style="color:var(--clay);">What We Offer</p>
-      <h2 class="section-title" style="font-family:'Cormorant Garant',serif; font-weight:300; color:var(--bark);">Our Flowers</h2>
+      <h2 class="section-title" style="font-family:'Cormorant Garant',serif; font-weight:300; color:var(--bark);">Flowers</h2>
     </div>
     <div class="collections-scroll-wrapper" id="collectionsScroll">
     <div class="collections-grid">
@@ -712,7 +712,7 @@
     });
   </script>
   <!-- CHRISTMAS -->
-  <section class="services" id="why">
+  <section class="services christmas-section" id="why">
     <div class="services-header">
       <p class="section-label" style="color:var(--clay);">Seasonal</p>
       <h2 class="section-title" style="font-family:'Cormorant Garant',serif; font-weight:300; color:var(--bark);">Christmas</h2>
